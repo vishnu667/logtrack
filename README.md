@@ -4,7 +4,7 @@
 
 To Use LogTrack for Tracking your loggin Application please add this to your pom 
 
-
+```
 <repositories>
     <repository>
         <id>logtrack-mvn-repo</id>
@@ -15,16 +15,21 @@ To Use LogTrack for Tracking your loggin Application please add this to your pom
         </snapshots>
     </repository>
 </repositories>
-
+```
 
 Initialize the Logger to connect with the Cloud platform For Loggin all your Errors
 
+```
 import org.cybergen.LogTrack
 
 LogTrack.initialize(Configuration config)
+```
 
 To monitor the Logs use 
 
+```
 LogTrack.log("your message");
+```
+
 
 
