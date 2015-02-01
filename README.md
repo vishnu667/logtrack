@@ -5,6 +5,12 @@
 To Use LogTrack for Tracking your loggin Application please add this to your pom 
 
 ```
+<dependency>
+  <groupId>org.cybergen</groupId>
+  <artifactId>logtrack</artifactId>
+  <version>1.0-SNAPSHOT</version>
+</dependency>
+
 <repositories>
     <repository>
         <id>logtrack-mvn-repo</id>
